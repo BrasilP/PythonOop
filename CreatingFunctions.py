@@ -13,7 +13,7 @@
 
 # Create function that returns the average of an integer list
 def average_numbers(num_list):
-    avg = sum(num_list)/float(len(num_list)) # divide by length of list
+    avg = sum(num_list)/float(len(num_list))  # divide by length of list
     return avg
 
 # Take the average of a list: my_avg
@@ -23,5 +23,11 @@ my_avg = average_numbers([1, 2, 3, 4, 5, 6])
 print(my_avg)
 # 3.5
 
+
+# Creating a complex data type
+# In this exercise, we'll take a closer look at the flexibility of the list data type, by creating a list of lists.
+
+# In Python, lists usually look like our list example below, and can be made up of either simple strings, integers,
+# or a combination of both.
 
 
