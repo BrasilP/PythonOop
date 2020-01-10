@@ -30,4 +30,14 @@ print(my_avg)
 # In Python, lists usually look like our list example below, and can be made up of either simple strings, integers,
 # or a combination of both.
 
+list = [1, 2]
 
+# In creating a list of lists, we're building up to the concept of a NumPy array.
+
+
+# Create a variable called matrix, and assign it the value of a list.
+# Within the matrix list, include two additional lists: [1,2,3,4] and [5,6,7,8].
+# Print the matrix list.
+
+matrix = [[1, 2, 3, 4], [5, 6, 7, 8]]
+print(matrix)
